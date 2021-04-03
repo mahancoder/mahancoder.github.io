@@ -1,5 +1,7 @@
 html, body {
     height: 100%;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
@@ -7,8 +9,7 @@ html, body {
 
 body {
     margin: 1%;
-    display: flex;
-    flex-direction: column;
+    flex-grow: 1;
     padding: 1%;
 }
 
