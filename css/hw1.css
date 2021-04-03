@@ -1,16 +1,15 @@
-html, body {
+html {
     height: 100%;
+}
+html, body {
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
 }
 
 body {
-    margin: 1%;
+    margin: 1% 1% 0 1%;
     flex-grow: 1;
-    padding: 1%;
+    padding: 1% 1% 0 1%;
 }
 
 header {
